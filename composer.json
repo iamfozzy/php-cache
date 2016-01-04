@@ -1,0 +1,21 @@
+{
+    "name": "fozzy/cache",
+    "description": "Cache component with stampede and race-condition protection.",
+    "keywords": [
+        "cache",
+        "fozzy"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fozzy\\Cache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
